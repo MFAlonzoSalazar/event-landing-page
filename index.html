@@ -15,7 +15,7 @@
     </head>
 
     <body>
-        <nav class="navbar navbar-expand-sm mx-md-5 my-0 mt-1 fw-bold">
+        <nav class="navbar sticky-top bg-white navbar-expand-sm px-md-5 pt-1 my-0 fw-bold">
             <div class="container-fluid">
                 <a class="cursive navbar-brand" href="#">moqups</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -25,30 +25,30 @@
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">Speakers</a>
+                            <a class="nav-link" aria-current="page" href="#Speakers">Speakers</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Tickets</a>
+                            <a class="nav-link" href="#Tickets">Tickets</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Venue</a>
+                            <a class="nav-link" href="#Venue">Venue</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
 
-        <div class="p-5 text-center image text-md-white">
-            <div class="row p-md-5 mb-md-5 justify-content-center">
-                <div class="col-12 col-md-8">
-                    <h1 class="fw-bold"> Clear Statement about Your event</h1>
-                    <h6 class="fw-light py-4"> Secondary header providing additional information </h6>
-                    <button class="btn btn-dark fw-bold rounded-1 px-4 py-2">GET THE TICKET</button>
-                </div>
-            </div>
+        <div class="p-5 text-center image">
+          <div class="row p-md-5 mb-md-5 justify-content-center">
+              <div class="col-12 col-md-8 p-md-5">
+                  <h1 class="fw-bold pt-md-3"> Clear Statement about Your event</h1>
+                  <h6 class="fw-light py-4"> Secondary header providing additional information </h6>
+                  <button class="btn btn-dark fw-bold rounded-1 px-4 py-2 mb-md-3">GET THE TICKET</button>
+              </div>
+          </div>
         </div>
 
-        <section class="container-fluid">
+        <section id="Speakers" class="container-fluid">
             <div class="row w-100 justify-content-center">
                 <div class="col-12 col-md-5 text-center my-5">
                     <h1 class="fw-bold mb-4"> The Speakers </h1>
@@ -100,15 +100,15 @@
             </div>
         </section>
 
-        <section class="border text-center py-5">
+        <section id="Tickets" class="border text-center py-5">
             <h1 class="fw-bold"> Get Your Ticket Today! </h1>
             <p class="fw-light my-5"> Each ticket includes: <b class="fw-bold">20</b> speakers, <b class="fw-bold">1000</b>
                 participants, <b class="fw-bold">15</b> sessions, <b class="fw-bold">5</b> keynotes.</p>
             <button class="btn btn-dark fw-bold rounded-1 px-4 py-2">BUY TICKET $149</button>
         </section>
 
-        <div class="container-fluid">
-            <section class="row justify-content-center p-5">
+        <section id="Venue" class="container-fluid">
+            <div class="row justify-content-center p-5">
                 <div class="col-12 col-md-6 ">
                     <p class="h1 fw-bold">The Venue</h1>
                         <p class="my-4">Our event will be held at the <b>Main Office headquarters at Bora Bora</b></p>
@@ -122,8 +122,8 @@
                 <div class="col-12 col-md-6">
                     <img src="./img/pexels-photo-237272.jpeg" class="img-fluid w-100 h-100 pt-2" alt="Responsive image">
                 </div>
-            </section>
-        </div>
+              </div>
+          </section>
 
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
